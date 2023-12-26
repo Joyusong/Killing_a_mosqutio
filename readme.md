@@ -1,3 +1,6 @@
+++ phaser 과 노트 모듈은 업로드이 시간이 오래걸려 빼놨습니다. 따로 받아야 합니다.
+
+
 # Phaser 3 + Vite.js Template
 > Make Phaser 3 games with modern frontend tooling.
 
