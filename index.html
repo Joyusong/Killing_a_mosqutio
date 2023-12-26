@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html lang="en">
@@ -64,7 +63,7 @@
           prediction = await model.predict(webcam.canvas);
          for (let i = 0; i < maxPredictions; i++) {
             const classPrediction =
-                prediction[i].probability.toFixed(2) + ":";
+               prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
          }
       }
@@ -80,20 +79,3 @@
 </body>
 
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>My Phaser 3 Game</title>
-</head>
-
-<body>
-	<div id="app"></div>
-	<script type="module" src="src/main.js"></script>
-</body>
-
-</html>
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Phaser 3 + Vite.js Template
 > Make Phaser 3 games with modern frontend tooling.
 
@@ -111,6 +110,3 @@ Change 8000 to whatever you want.
 ## License
 
 [MIT License](https://github.com/ourcade/phaser3-vite-template/blob/master/LICENSE)
-=======
-
->>>>>>> origin/main
